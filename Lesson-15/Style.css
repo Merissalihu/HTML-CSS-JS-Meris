@@ -1,0 +1,112 @@
+div#static {
+    position: static;
+    border: 3px solid orange;
+    Height: 100px;
+    Width: 100px;
+    background-color: lightblue;
+    padding: 20px;
+   
+}
+div#relative {
+    position: relative;
+    border: 3px solid blue;
+    Height: 250px;
+    Width: 250px;
+   
+}
+div#parent {
+    position: relative;
+    border: 3px solid white;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    top: 100px;
+    right: 100px;
+
+}
+div#fixed {
+    position: fixed;
+    border: 3px solid red;
+    Height: 100px;
+    Width: 100px;
+    background-color: yellow;
+    padding: 20px;
+    top: 10px;
+    right: 10px;
+
+}    
+
+
+
+
+
+
+div#absolute {
+    position: absolute;
+    border: 3px solid purple;
+    Height: 100px;
+    Width: 100px;
+    background-color: lightgrey;
+    padding: 20px;
+    bottom: 10px;
+    left: 10px;
+
+}
+div#sticky {
+    position: sticky;
+    border: 3px solid green;
+    background-color: brown;
+    padding: 20px;
+    top: 0;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: navajowhite;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: aquamarine;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    family: Arial, Helvetica, sans-serif;
+}
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    margin: 0;
+}
