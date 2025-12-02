@@ -29,7 +29,67 @@
     padding: 5px 0;
     position: absolute;
     z-index: 1;
+    top: -5px;
+    left: 50%;
+    margin-left: -60px;
 }
 .tooltip:hover .tooltiptext{
     visibility: visible;
+}
+.tooptip .tooltiptext::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+body {
+    counter-reset: number;
+}
+h2::before{
+    counter-increment: number;
+    content: counter(number);
+    background-color: white;
+    padding: 5px 12px;
+    color: blue;
+    border-radius: 50%;
+    margin: 10px;
+}
+:root{
+    --primary--color : #06206a;
+    --secondary--color : #fff;
+    --padding: 20px;
+}
+h1 {
+    background-color: var(--primary--color);
+    color: var(--secondary--color);
+    padding: var(--padding);
+}
+p {
+    background-color: var(--primary--color);
+    color: var(--secondary--color);
+    padding: var(--padding);
+}
+.round {
+    border-radius: 12px;
+}
+
+#example {
+    border-image: url(Lesson16/images/omage1.jpg) 25 25 round;
+}
+
+body {
+    background:url('Lesson16/images/image2.jpg')
+    top center / 200px 200px
+    no-repeat
+    fixed padding-box
+    content-box
+    red;
+}
+body {
+    background-color: red;
+    background: url(lesson16/images/image1.jpg);
 }
