@@ -1,0 +1,90 @@
+article p {
+    background: lightcoral;
+    color: lightblue;
+    padding: 20px;
+}
+article > p {
+    background: lightcoral;
+}
+article ~ p {
+    background: lightcoral;
+    color: lightblue;
+    padding: 20px;
+}
+article + p {
+    background: lightcoral;
+}
+h3:first-child {
+    background-color: lightblue;
+    color: white;
+}
+input:invalid {
+    border: 2px solid lightblue;
+}
+input:valid {
+    border: 2px solid lightblue;
+}
+input:focus {
+    background-color: yellow;
+}
+span:first-of-type {
+    background: black;
+    color: white;
+    padding: 10px;
+}
+header p::first-line {
+    color: cornflowerblue;
+}
+
+body{
+    background-color: #2b2b2b;
+    text-align: center;
+    font-family: arial;
+}
+
+header{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+header p {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+
+h1 {
+    text-align: center;
+    background-color: #444;
+    color: white;
+    padding: 15px;
+}
+
+h3 {
+    background-color: #444;
+    text-align: center;
+    padding: 10px;
+}
+
+form {
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    width: 300px;
+    
+}
+
+span {
+    background-color: #444;
+    color: white;
+    padding: 8px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 50px auto;
+    max-width: 100%;
+}
