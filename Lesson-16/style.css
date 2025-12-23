@@ -20,7 +20,7 @@ div.desc {
 }
 
 .world {
-    background: url("images/image1234.jpg") no-repeat;;
+    background: url("image1234.jpg") no-repeat;;
 }
 
 .pictures{
@@ -32,15 +32,28 @@ div.desc {
 a[href="https://Shkolladigjitale.com"]{
     color: blue;
 }
-[date-value]{
-    /* Attribute exists */
+
+p[class="ds"] {
+    background: blue;
+    color:red;
+    padding:20px;
 }
-[date-value="foo"]{
-    /* Attribute has this exact value */
+div[id~="ds"] {
+    background: green;
+    color:white;
+    padding:20px;
 }
-[date-value*=foo]{
-    /* Attribute value that it contains this value somewhere in it */
+img[title^="image"] {
+    border: 2px solid blue;
 }
-[date-value~=foo]{
-    /* Attribute value has been space-seperated list somewhere*/
+h1[class|=heading] {
+    background: purple;
+    padding: 20px;
+    color: white;
+}
+input[placeholder$="Name"]{
+    border: 2px solid red;
+}
+input[readonly]{
+    border: 2px solid green;
 }
